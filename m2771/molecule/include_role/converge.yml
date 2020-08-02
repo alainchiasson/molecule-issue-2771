@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  # Will call handlers from m2771
+  tasks:
+  - name: "Include m2771"
+    include_role:
+      name: "m2771"
+  - name: "Include m2771a"
+    include_role:
+      name: "m2771a"

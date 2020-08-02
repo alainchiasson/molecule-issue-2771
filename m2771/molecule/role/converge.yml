@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+
+  # Will call handlers from m2771a
+  roles: 
+    - m2771
+    - m2771a
