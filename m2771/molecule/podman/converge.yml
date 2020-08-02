@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include m2771"
+      include_role:
+        name: "m2771"

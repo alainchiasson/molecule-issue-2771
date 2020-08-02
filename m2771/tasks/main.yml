@@ -1,0 +1,13 @@
+---
+# tasks file for m2771
+- name: First file
+  copy:
+    content: '# First config file'
+    dest: /tmp/config1
+  notify: handler
+
+- name: second file
+  copy:
+    content: '# Second config file'
+    dest: /tmp/config2
+  notify: handler

@@ -1,0 +1,5 @@
+---
+# handlers file for m2771
+- name: handler
+  debug: 
+    msg: "handler in original role"
